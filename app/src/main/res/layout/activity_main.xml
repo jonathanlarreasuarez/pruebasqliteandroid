@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pronostico7.practicasqlite.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOpcionRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Usuario"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Usuario"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btnConsultaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Usuario Spinner"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btnConsultaLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Usuario Listview"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btnServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Servicio Web"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
